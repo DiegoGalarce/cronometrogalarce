@@ -1,0 +1,95 @@
+body{
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+/*.fecha{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+
+}*/
+
+.hora{
+    font-family: 'Londrina Outline', cursive;
+    font-size: 6em;
+    color: #fff;
+    letter-spacing: 0.15;
+}
+
+.pink {
+    text-shadow: 
+        0 0 1px #FF7BAC
+,
+        0 0 2px #FF7BAC
+,
+        0 0 3px #FF7BAC
+,
+        0 0 5px #FF7BAC
+,
+        0 0 9px #FF7BAC
+,
+        0 0 10px #FF7BAC
+,
+        0 0 4px #FF7BAC
+,
+        0 0 1px #FF7BAC
+;
+}
+
+@media (max-width: 575.98px) { 
+        aside{
+            display: none;
+        }
+        .time{
+                flex-wrap:wrap;  
+        }
+        .hora{
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                font-size: 3em;
+                color: #fff;
+        }
+        .green {
+                text-shadow: 
+                    0 0 5px #7BFFCE
+            ,
+                    0 0 10px #7BFFCE
+            ,
+                    0 0 20px #7BFFCE
+            ,
+                    0 0 40px #7BFFCE
+            ,
+                    0 0 80px #7BFFCE
+            ,
+                    0 0 90px #7BFFCE
+            ,
+                    0 0 100px #7BFFCE
+            ,
+                    0 0 150px #7BFFCE
+            ;
+        }
+        body{
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(29,29,34,1) 46%, rgba(171,39,130,1) 95%);
+        }
+}
+     @media (min-width: 768px) and (max-width: 991.98px) {
+        section{
+                flex-direction: column;
+            }
+
+            body{
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(29,29,34,1) 46%, rgba(171,39,130,1) 95%);
+        }
+         aside{
+             display: none;
+         }
+     }
