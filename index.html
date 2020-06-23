@@ -14,17 +14,22 @@
 </head>
 
 <body>
-    <input type="button" value="Empezar" id="Empezar" onclick="Empezar()" />
-    <input type="button" value="Reiniciar" id="Reiniciar" onclick="Reiniciar()" />
-    <input type="button" value="Parar" id="Parar" onclick="Parar()" />
 <main class="container d-flex justify-content-center mt-5" onload="">
         <section class="w-75 pink green">
-<div class="d-flex justify-content-between hora time">
-                <p id="Horas">00</p>
-                <p id=>:</p>
+            <div class="d-flex justify-content-center cronometro caro">
+                <h1 class="">cronometro</h1>
+            </div>
+            <div class="d-flex justify-content-center cronometro caro">
+                <input class="btn btn-dark border border-primary text-warning" type="button" value="Empezar" id="Empezar" onclick="Empezar()" />
+                <input class="btn btn-dark border border-primary text-warning" type="button" value="Reiniciar" id="Reiniciar" onclick="Reiniciar()" />
+                <input class="btn btn-dark border border-primary text-warning" type="button" value="Parar" id="Parar" onclick="Parar()" />
+            </div>
+            <div class="d-flex justify-content-between hora time">
                 <p id="Minutos">00</p>
                 <p id=>:</p>
                 <p id="Segundos">00</p>
+                <p id=>:</p>
+                <p id="MileSima">00</p>
                 <p id="ampm"></p>
             </div>
         </section>
